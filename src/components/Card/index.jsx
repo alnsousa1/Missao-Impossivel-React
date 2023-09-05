@@ -19,7 +19,7 @@ export const Card = (props) => {
           marginTop: 10,
           textAlign: 'center'
         }}
-      >Missão impossivel 2</h2>
+      >{props.titulo}</h2>
     </div>
   )
 }
